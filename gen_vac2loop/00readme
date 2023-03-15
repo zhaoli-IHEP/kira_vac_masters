@@ -1,0 +1,13 @@
+
+
+cd config
+julia gen_families.jl
+cd ..
+
+kira --parallel=16 jobs.yaml
+
+julia gen_integrals.jl
+
+kira --parallel=16 export.yaml
+
+

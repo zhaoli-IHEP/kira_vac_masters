@@ -1,0 +1,10 @@
+jobs:
+ - kira2form:
+    target:
+      - [vac2loopT0,integrals_vac2loopT0]
+      - [vac2loopT1,integrals_vac2loopT1]
+      - [vac2loopT2,integrals_vac2loopT2]
+      - [vac2loopT3,integrals_vac2loopT3]
+      - [vac2loopT4,integrals_vac2loopT4]
+      - [vac2loopT5,integrals_vac2loopT5]
+      - [vac2loopT6,integrals_vac2loopT6]
