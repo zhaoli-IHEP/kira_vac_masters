@@ -54,7 +54,7 @@ function main()::Nothing
   s_max = 0 # we assume vaccum integrals have no negative xpt. 
 
   indices_list = Vector{Vector{Int64}}()
-  for indices in generate_lists( 3, 16, 0 )
+  for indices in generate_lists( 3, r_max, s_max )
     if sum(indices) < 1
       continue
     end # if
