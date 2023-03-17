@@ -1,11 +1,10 @@
 # rmax: the maximal sum of positive propagator powers in the seed.
 # smax: the maximal negative sum of negative propagator powers in the seed.
-# dmax (optional): the maximal number of dots. On a sector with L lines (L is the number of propagators with positive integer exponents), seeds will be generated up to r = min(rmax, L + dmax). If omitted, only rmax will limit r. This option should usually only be used in integral selectors, but not in IBP seeds.
 
 jobs:
   - reduce_sectors:
       reduce:
-        - {sectors: [b111], r: 8, s: 2}
+        - {sectors: [b111], r: 16, s: 2}
       preferred_masters: ./basis
       run_initiate: true
       run_triangular: true

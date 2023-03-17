@@ -50,7 +50,7 @@ end # function generate_lists
 function main()::Nothing
 ########################
 
-  r_max = 8
+  r_max = 16
   s_max = 0 # we assume vaccum integrals have no negative xpt. 
 
   indices_list = Vector{Vector{Int64}}()
